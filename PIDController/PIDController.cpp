@@ -37,7 +37,6 @@ float PIDController::hitung(float setpoint, float input) {
 
     float output = _kp * error + _ki * _integral + _kd * derivative;
 
-    // Clamp output
     if (output > _outputMax) output = _outputMax;
     else if (output < _outputMin) output = _outputMin;
 
@@ -47,7 +46,7 @@ float PIDController::hitung(float setpoint, float input) {
     return output;
   }
 
-  return -1; // indicates no update
+  return -1;
 }
 
 void PIDController::reset() {
