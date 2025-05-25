@@ -8,7 +8,8 @@ Library sederhana untuk mengimplementasikan kontrol PID pada motor menggunakan A
 - Dapat diintegrasikan dengan sistem motor dan sensor
 
 ## Cara Penggunaan
-
+Jangan lupa Install librarinya via ZIP file
 ```cpp
+#include <PIDController.h>
 PIDController pid(2.0, 0.5, 1.0);
-float output = pid.compute(setpoint, input);
+float output = pid.hitung(setpoint, input);
