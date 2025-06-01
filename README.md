@@ -1,6 +1,6 @@
 # PIDController Library
 
-Library sederhana untuk mengimplementasikan kontrol PID pada motor menggunakan Arduino atau mikrokontroler lainnya. Dibuat oleh Ridho Programmer KRAI 2025.
+Library sederhana untuk mengimplementasikan kontrol PID pada motor menggunakan Arduino atau mikrokontroler lainnya. Dibuat oleh Ridho.
 
 ## Fitur
 - PID controller (Proportional, Integral, Derivative)
